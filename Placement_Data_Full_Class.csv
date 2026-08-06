@@ -1,0 +1,301 @@
+sl_no,gender,ssc_p,ssc_b,hsc_p,hsc_b,hsc_s,degree_p,degree_t,workex,etest_p,coding_score,communication_score,projects_count,certifications_count,status,salary
+1,M,54.36,Central,56.2,Central,Science,67.6,Comm&Mgmt,No,78.52,63.5,48.0,2,2,Not Placed,
+2,F,58.3,Central,59.68,Central,Science,61.19,Sci&Tech,No,90.32,75.0,93.7,2,2,Placed,479000.0
+3,F,81.1,Central,72.55,Central,Science,66.58,Sci&Tech,No,81.31,88.8,69.6,3,2,Placed,538000.0
+4,M,61.6,Others,68.94,Central,Commerce,62.21,Sci&Tech,No,55.46,65.1,76.4,1,2,Not Placed,
+5,M,57.51,Others,70.79,Central,Science,62.74,Sci&Tech,No,86.12,45.7,72.5,4,2,Not Placed,
+6,M,74.13,Others,72.28,Others,Commerce,66.72,Comm&Mgmt,No,61.52,80.7,67.9,3,2,Placed,602000.0
+7,M,80.95,Central,73.85,Central,Commerce,61.86,Comm&Mgmt,No,68.89,63.1,66.2,3,1,Placed,514000.0
+8,F,76.05,Central,78.98,Central,Science,65.49,Sci&Tech,No,76.5,55.3,77.0,2,4,Placed,369000.0
+9,F,78.96,Others,71.43,Others,Science,53.6,Sci&Tech,Yes,97.45,63.3,54.8,3,2,Not Placed,
+10,F,60.55,Central,64.39,Others,Science,69.4,Others,Yes,99.0,69.4,82.0,0,2,Placed,539000.0
+11,M,53.57,Central,74.26,Central,Commerce,67.81,Sci&Tech,Yes,80.78,63.5,68.0,3,1,Placed,696000.0
+12,F,84.26,Central,87.52,Others,Science,61.67,Sci&Tech,Yes,71.3,41.1,59.4,0,2,Not Placed,
+13,F,65.11,Central,65.57,Others,Commerce,72.74,Sci&Tech,Yes,79.91,84.6,67.6,4,2,Placed,544000.0
+14,M,65.87,Others,56.48,Central,Science,74.83,Comm&Mgmt,No,84.15,89.8,88.1,5,1,Placed,409000.0
+15,M,82.45,Others,78.96,Others,Commerce,55.74,Comm&Mgmt,No,69.65,81.1,66.6,1,0,Placed,500000.0
+16,M,74.34,Others,65.7,Others,Science,62.08,Sci&Tech,No,95.04,56.1,77.3,1,2,Placed,386000.0
+17,M,73.29,Central,43.54,Central,Science,62.03,Sci&Tech,Yes,76.26,69.2,64.2,3,2,Placed,618000.0
+18,M,91.23,Central,76.15,Central,Arts,60.75,Comm&Mgmt,Yes,79.47,71.9,82.1,1,1,Placed,394000.0
+19,M,61.74,Central,61.22,Others,Commerce,74.02,Comm&Mgmt,No,81.49,80.4,81.2,3,1,Placed,382000.0
+20,M,78.24,Central,66.02,Others,Science,66.35,Sci&Tech,Yes,78.56,81.4,95.2,1,2,Placed,429000.0
+21,F,69.1,Central,70.59,Central,Commerce,65.82,Others,No,83.57,61.7,70.9,1,0,Placed,294000.0
+22,M,71.32,Others,69.06,Central,Science,52.77,Sci&Tech,Yes,66.09,73.1,81.0,5,1,Placed,582000.0
+23,M,84.55,Others,74.66,Central,Commerce,72.57,Sci&Tech,No,66.8,78.4,74.2,3,1,Placed,353000.0
+24,M,73.83,Central,62.3,Others,Commerce,58.51,Others,No,60.3,92.4,88.6,3,1,Placed,521000.0
+25,M,74.15,Others,72.54,Others,Science,68.25,Sci&Tech,No,78.77,81.9,64.4,2,1,Placed,337000.0
+26,F,79.76,Others,64.2,Central,Science,69.88,Comm&Mgmt,No,82.85,83.0,81.9,3,1,Placed,482000.0
+27,M,64.67,Others,74.98,Others,Science,78.0,Sci&Tech,No,78.99,73.2,70.7,2,0,Placed,585000.0
+28,M,59.69,Others,73.65,Others,Science,57.98,Sci&Tech,No,93.59,91.7,72.2,2,1,Placed,523000.0
+29,M,57.53,Central,56.9,Central,Commerce,50.0,Others,Yes,73.43,77.7,74.1,3,1,Placed,436000.0
+30,M,47.85,Central,78.73,Central,Science,69.18,Sci&Tech,No,81.52,59.9,76.0,2,1,Placed,448000.0
+31,F,90.09,Central,61.21,Others,Science,81.3,Comm&Mgmt,No,60.4,91.6,71.6,2,1,Placed,499000.0
+32,M,56.92,Others,75.73,Others,Commerce,77.09,Sci&Tech,Yes,68.85,81.8,75.6,1,3,Placed,496000.0
+33,M,66.18,Central,70.97,Others,Arts,69.37,Sci&Tech,Yes,81.85,65.8,91.9,3,0,Placed,383000.0
+34,F,65.59,Central,86.85,Others,Science,64.11,Sci&Tech,No,83.69,65.3,84.8,1,1,Placed,479000.0
+35,F,71.73,Central,64.59,Central,Science,73.85,Comm&Mgmt,No,69.97,76.2,83.4,3,0,Placed,305000.0
+36,F,77.07,Central,63.23,Central,Science,60.5,Sci&Tech,No,72.64,78.5,67.5,1,0,Placed,414000.0
+37,M,77.53,Others,66.79,Others,Science,71.37,Comm&Mgmt,No,55.29,74.8,62.3,2,2,Placed,438000.0
+38,M,62.38,Others,63.73,Central,Commerce,71.59,Sci&Tech,Yes,69.22,76.4,84.5,3,2,Placed,539000.0
+39,F,66.75,Central,75.64,Central,Science,75.75,Others,No,84.18,95.8,83.5,1,3,Placed,485000.0
+40,M,71.47,Central,49.54,Central,Commerce,88.5,Sci&Tech,No,80.4,87.0,90.7,0,2,Placed,352000.0
+41,M,65.89,Central,55.62,Central,Science,70.74,Comm&Mgmt,Yes,79.51,74.7,65.8,1,4,Placed,383000.0
+42,M,85.38,Central,55.47,Central,Commerce,63.98,Comm&Mgmt,No,74.1,85.2,70.2,2,0,Not Placed,
+43,M,73.66,Central,77.26,Central,Commerce,67.61,Comm&Mgmt,No,73.58,57.5,53.3,3,0,Placed,461000.0
+44,F,76.22,Central,85.47,Central,Commerce,54.53,Comm&Mgmt,No,65.58,77.6,68.3,0,0,Not Placed,
+45,M,75.46,Central,65.87,Central,Science,62.59,Comm&Mgmt,Yes,81.89,97.3,85.0,3,1,Placed,492000.0
+46,F,80.82,Others,65.18,Others,Science,64.73,Comm&Mgmt,No,78.55,68.9,67.4,2,2,Placed,512000.0
+47,M,70.4,Others,67.76,Others,Science,63.87,Sci&Tech,Yes,79.4,60.1,80.7,2,2,Placed,414000.0
+48,M,54.88,Central,79.55,Others,Commerce,68.94,Sci&Tech,No,67.19,62.9,70.7,4,0,Placed,488000.0
+49,M,72.7,Central,56.98,Others,Commerce,61.63,Others,No,47.66,56.7,76.9,2,3,Not Placed,
+50,M,61.66,Others,69.57,Others,Commerce,76.21,Comm&Mgmt,Yes,86.67,61.0,59.2,2,3,Placed,352000.0
+51,F,62.95,Central,77.53,Central,Commerce,67.8,Comm&Mgmt,Yes,67.75,66.8,74.0,0,1,Not Placed,
+52,F,74.66,Others,72.41,Others,Commerce,67.73,Sci&Tech,Yes,63.15,52.3,40.0,1,0,Not Placed,
+53,F,81.5,Others,69.05,Others,Science,65.34,Sci&Tech,Yes,81.82,72.2,70.8,1,1,Placed,401000.0
+54,F,68.72,Central,77.81,Others,Commerce,68.96,Sci&Tech,Yes,68.8,84.6,53.4,0,0,Placed,425000.0
+55,M,71.74,Central,40.0,Central,Science,73.99,Comm&Mgmt,No,86.22,59.3,87.5,2,0,Placed,394000.0
+56,F,86.37,Others,74.32,Central,Science,61.3,Sci&Tech,No,80.9,93.3,82.3,2,1,Placed,482000.0
+57,M,71.03,Central,59.94,Central,Science,62.86,Sci&Tech,Yes,81.7,79.2,78.6,2,1,Placed,591000.0
+58,M,95.0,Others,47.23,Central,Science,65.52,Sci&Tech,No,57.11,86.4,91.3,1,1,Placed,526000.0
+59,M,74.44,Others,72.52,Others,Science,57.71,Sci&Tech,Yes,88.04,62.8,61.6,1,4,Placed,495000.0
+60,M,50.01,Others,81.84,Others,Commerce,61.66,Comm&Mgmt,Yes,76.64,84.0,94.0,3,2,Placed,407000.0
+61,M,76.41,Central,65.52,Central,Science,64.23,Sci&Tech,No,69.07,56.7,84.2,5,3,Placed,424000.0
+62,M,72.5,Others,77.29,Others,Commerce,74.36,Comm&Mgmt,No,75.22,84.5,70.2,0,0,Placed,248000.0
+63,F,82.04,Central,84.41,Others,Science,69.77,Sci&Tech,Yes,52.19,74.4,86.6,4,1,Placed,455000.0
+64,M,75.57,Central,81.2,Central,Science,69.25,Sci&Tech,No,78.4,79.7,59.7,2,2,Placed,547000.0
+65,M,67.05,Others,84.71,Central,Science,74.18,Sci&Tech,Yes,61.15,55.5,63.1,2,0,Not Placed,
+66,M,55.64,Central,75.01,Central,Science,66.77,Sci&Tech,No,57.27,59.5,65.7,2,0,Not Placed,
+67,M,66.31,Others,67.81,Central,Commerce,70.73,Sci&Tech,Yes,55.23,80.4,66.7,0,2,Not Placed,
+68,F,59.57,Others,49.7,Central,Science,67.03,Sci&Tech,No,86.85,58.7,60.3,1,2,Not Placed,
+69,M,62.4,Central,64.34,Central,Commerce,69.79,Comm&Mgmt,Yes,65.95,78.5,87.7,2,1,Placed,492000.0
+70,F,74.68,Central,57.89,Central,Science,63.43,Sci&Tech,No,91.9,52.9,69.9,2,1,Placed,493000.0
+71,F,86.03,Central,90.45,Central,Commerce,50.0,Comm&Mgmt,No,67.07,83.9,77.2,4,1,Placed,413000.0
+72,M,72.64,Central,65.1,Others,Arts,66.79,Comm&Mgmt,No,53.01,54.7,66.2,2,0,Not Placed,
+73,M,55.94,Central,68.33,Central,Commerce,78.47,Comm&Mgmt,Yes,60.1,79.7,51.2,1,1,Not Placed,
+74,F,73.17,Others,72.96,Others,Science,74.75,Sci&Tech,Yes,88.33,80.8,76.2,3,1,Placed,472000.0
+75,F,81.06,Central,67.47,Central,Science,75.04,Sci&Tech,No,71.63,62.2,50.1,1,0,Not Placed,
+76,F,62.1,Central,85.31,Others,Science,77.07,Sci&Tech,No,66.92,80.1,72.2,2,4,Placed,677000.0
+77,F,67.09,Others,60.28,Central,Commerce,68.46,Sci&Tech,No,75.42,75.6,56.6,3,2,Placed,486000.0
+78,M,68.65,Central,69.1,Central,Science,69.28,Others,Yes,79.52,64.5,96.8,4,2,Placed,524000.0
+79,M,60.26,Others,58.98,Others,Science,63.17,Sci&Tech,Yes,86.91,57.9,83.9,3,1,Not Placed,
+80,M,75.31,Central,52.74,Others,Commerce,65.43,Sci&Tech,No,90.88,44.5,74.3,3,1,Not Placed,
+81,F,67.23,Central,60.39,Others,Science,72.42,Comm&Mgmt,No,69.18,76.9,88.2,3,1,Placed,528000.0
+82,F,72.91,Others,66.6,Central,Commerce,76.83,Comm&Mgmt,No,57.59,50.1,62.8,4,0,Not Placed,
+83,M,59.18,Others,62.36,Central,Science,66.75,Comm&Mgmt,No,68.54,73.3,79.5,1,1,Not Placed,
+84,M,63.91,Others,59.52,Others,Science,64.42,Sci&Tech,No,76.62,68.3,75.4,0,2,Not Placed,
+85,M,76.09,Others,51.81,Others,Commerce,67.8,Sci&Tech,Yes,61.93,81.5,76.2,1,2,Placed,565000.0
+86,M,64.59,Others,66.1,Others,Science,72.31,Comm&Mgmt,No,62.01,67.8,88.3,1,2,Placed,473000.0
+87,F,86.63,Central,50.75,Others,Commerce,56.97,Sci&Tech,Yes,77.63,67.4,81.8,3,1,Placed,548000.0
+88,F,64.3,Central,75.21,Central,Science,50.58,Sci&Tech,No,72.92,82.2,76.5,2,3,Placed,467000.0
+89,F,70.86,Others,67.89,Others,Science,63.67,Sci&Tech,No,73.89,76.7,53.1,2,0,Not Placed,
+90,M,78.29,Others,51.26,Central,Commerce,58.64,Sci&Tech,Yes,64.4,76.4,61.5,0,1,Not Placed,
+91,M,53.61,Others,63.66,Central,Commerce,63.99,Sci&Tech,Yes,70.74,78.6,71.5,3,1,Not Placed,
+92,F,50.01,Central,58.88,Central,Commerce,66.69,Sci&Tech,Yes,62.41,50.5,74.1,2,2,Not Placed,
+93,F,52.48,Central,70.45,Others,Science,64.4,Comm&Mgmt,No,84.18,82.6,59.4,3,4,Placed,434000.0
+94,M,81.76,Others,81.48,Central,Commerce,78.69,Comm&Mgmt,No,85.92,80.6,100.0,2,1,Placed,437000.0
+95,F,62.71,Central,46.75,Central,Science,70.25,Comm&Mgmt,Yes,51.35,57.8,91.2,2,3,Not Placed,
+96,M,95.0,Others,68.24,Others,Science,70.05,Sci&Tech,No,62.35,68.6,80.2,1,3,Placed,464000.0
+97,M,62.58,Others,65.27,Central,Commerce,72.47,Sci&Tech,No,55.54,71.4,73.9,1,1,Placed,364000.0
+98,M,70.44,Central,74.25,Others,Science,59.26,Sci&Tech,No,65.7,70.1,70.5,3,1,Placed,559000.0
+99,M,84.69,Others,69.3,Central,Arts,75.59,Comm&Mgmt,No,72.5,76.7,61.6,4,1,Placed,555000.0
+100,M,89.56,Others,58.88,Others,Science,67.23,Comm&Mgmt,Yes,56.1,92.0,73.9,2,4,Placed,449000.0
+101,M,90.15,Central,63.55,Others,Science,72.83,Sci&Tech,No,62.44,87.1,76.1,1,1,Placed,363000.0
+102,F,81.19,Others,58.4,Central,Science,59.76,Others,No,61.45,53.6,58.1,2,2,Not Placed,
+103,M,79.25,Central,78.62,Central,Commerce,56.15,Sci&Tech,No,75.99,80.7,77.0,3,1,Placed,470000.0
+104,M,74.72,Others,67.23,Central,Commerce,73.93,Comm&Mgmt,No,74.33,90.6,71.1,3,2,Placed,524000.0
+105,F,76.67,Central,87.53,Central,Commerce,70.62,Comm&Mgmt,No,64.84,77.4,50.1,1,1,Not Placed,
+106,M,62.71,Others,66.34,Others,Commerce,61.03,Comm&Mgmt,No,75.62,87.3,62.7,0,2,Not Placed,
+107,M,59.91,Central,59.35,Central,Commerce,61.28,Comm&Mgmt,No,66.94,100.0,68.0,3,3,Placed,503000.0
+108,F,68.46,Central,50.65,Others,Commerce,76.24,Comm&Mgmt,Yes,70.24,86.3,95.7,2,2,Placed,468000.0
+109,M,66.71,Others,47.53,Central,Science,58.88,Sci&Tech,No,93.58,75.5,79.7,1,3,Placed,498000.0
+110,M,63.74,Central,49.89,Others,Science,80.12,Comm&Mgmt,No,89.59,86.6,57.0,0,0,Not Placed,
+111,M,75.81,Central,69.88,Others,Science,61.05,Sci&Tech,Yes,57.91,74.0,78.8,2,2,Placed,589000.0
+112,M,78.53,Others,72.49,Others,Arts,72.59,Comm&Mgmt,Yes,83.46,72.3,54.4,3,0,Placed,355000.0
+113,F,69.43,Others,49.92,Others,Arts,65.34,Comm&Mgmt,No,83.24,67.1,86.0,4,1,Placed,592000.0
+114,F,84.01,Others,76.67,Central,Science,72.32,Comm&Mgmt,No,59.72,93.9,67.3,2,2,Placed,485000.0
+115,F,56.51,Others,61.78,Central,Commerce,63.72,Sci&Tech,No,83.33,60.5,71.9,2,1,Not Placed,
+116,F,66.47,Central,68.59,Others,Commerce,66.58,Comm&Mgmt,Yes,91.96,93.5,88.9,1,1,Placed,486000.0
+117,F,60.97,Central,84.41,Others,Science,68.11,Comm&Mgmt,Yes,60.03,79.0,57.6,2,4,Placed,558000.0
+118,M,48.9,Central,76.69,Others,Commerce,60.28,Comm&Mgmt,Yes,62.49,52.4,56.2,2,0,Not Placed,
+119,F,67.63,Others,64.1,Central,Commerce,73.36,Sci&Tech,No,85.71,77.1,66.0,2,2,Placed,399000.0
+120,M,67.22,Others,57.38,Others,Science,63.95,Sci&Tech,Yes,76.76,42.6,85.5,2,1,Not Placed,
+121,F,84.39,Others,43.76,Others,Commerce,66.09,Sci&Tech,No,80.12,80.8,54.8,1,0,Not Placed,
+122,F,75.12,Others,59.23,Central,Science,60.34,Sci&Tech,No,77.59,84.4,40.0,1,1,Not Placed,
+123,M,57.75,Central,64.72,Central,Commerce,50.0,Comm&Mgmt,No,78.19,63.7,67.6,2,3,Not Placed,
+124,M,87.97,Central,56.34,Others,Arts,66.37,Sci&Tech,Yes,57.58,73.7,79.6,1,3,Placed,378000.0
+125,M,81.32,Central,65.58,Others,Arts,85.89,Others,No,86.07,99.4,87.4,1,3,Placed,531000.0
+126,M,74.61,Central,67.83,Others,Science,73.68,Sci&Tech,Yes,87.54,64.9,67.4,5,4,Placed,476000.0
+127,F,66.12,Central,64.57,Central,Commerce,67.66,Sci&Tech,No,70.75,57.2,68.1,2,1,Not Placed,
+128,F,58.43,Others,59.98,Others,Commerce,65.83,Comm&Mgmt,No,72.98,92.7,86.8,2,1,Placed,504000.0
+129,M,64.59,Central,68.82,Central,Science,67.97,Comm&Mgmt,No,55.13,99.5,50.6,4,2,Placed,444000.0
+130,M,79.93,Central,71.77,Central,Commerce,71.9,Sci&Tech,No,79.67,72.1,68.3,5,1,Placed,474000.0
+131,M,88.29,Central,55.22,Central,Science,58.94,Comm&Mgmt,Yes,80.36,86.2,75.3,2,1,Placed,584000.0
+132,M,84.7,Others,82.24,Others,Commerce,76.16,Comm&Mgmt,No,72.75,90.8,78.4,3,1,Placed,578000.0
+133,M,63.37,Others,65.94,Others,Science,73.17,Sci&Tech,Yes,86.99,61.6,66.9,2,2,Not Placed,
+134,M,56.74,Central,67.2,Others,Science,73.19,Others,Yes,69.49,65.2,73.4,2,2,Placed,475000.0
+135,F,69.98,Central,74.65,Central,Science,71.09,Others,Yes,80.28,89.2,43.1,2,1,Placed,473000.0
+136,M,49.93,Others,69.52,Others,Commerce,67.95,Comm&Mgmt,No,61.26,95.6,65.1,3,1,Not Placed,
+137,M,71.89,Central,77.29,Central,Science,72.85,Sci&Tech,No,73.22,79.9,78.4,3,2,Placed,486000.0
+138,F,66.95,Others,70.1,Others,Commerce,72.24,Comm&Mgmt,No,71.41,59.7,61.2,2,2,Placed,466000.0
+139,M,63.61,Others,60.39,Central,Science,65.14,Sci&Tech,Yes,76.2,99.8,73.7,1,1,Placed,570000.0
+140,F,51.76,Central,70.9,Central,Science,63.5,Sci&Tech,Yes,69.07,64.6,78.4,2,2,Placed,402000.0
+141,F,73.89,Central,54.65,Others,Science,68.56,Sci&Tech,No,71.92,67.3,68.9,1,0,Not Placed,
+142,M,62.91,Others,68.17,Central,Commerce,79.42,Sci&Tech,Yes,83.41,76.8,75.0,2,1,Placed,368000.0
+143,M,56.22,Central,66.64,Others,Science,58.51,Comm&Mgmt,No,68.26,93.8,61.4,3,2,Not Placed,
+144,M,40.0,Central,64.75,Others,Commerce,56.79,Comm&Mgmt,Yes,54.22,84.0,70.5,3,2,Not Placed,
+145,M,68.21,Others,65.61,Central,Commerce,69.04,Comm&Mgmt,No,94.5,77.8,80.3,3,1,Placed,480000.0
+146,M,87.11,Others,46.68,Others,Commerce,68.18,Sci&Tech,Yes,90.08,78.5,74.9,4,2,Placed,385000.0
+147,F,85.94,Others,61.07,Central,Science,69.1,Sci&Tech,No,57.99,72.6,66.0,2,2,Placed,437000.0
+148,M,63.7,Others,68.0,Others,Science,69.63,Sci&Tech,Yes,81.78,79.8,75.7,3,2,Placed,427000.0
+149,M,62.18,Central,68.73,Others,Commerce,66.13,Others,Yes,67.46,36.6,81.6,2,2,Not Placed,
+150,M,73.42,Central,55.9,Others,Science,78.97,Sci&Tech,Yes,76.66,67.8,48.4,1,2,Not Placed,
+151,F,58.02,Others,80.67,Central,Commerce,55.79,Comm&Mgmt,No,77.03,75.4,86.9,0,1,Placed,500000.0
+152,M,71.67,Others,57.65,Others,Science,61.59,Comm&Mgmt,No,70.69,55.9,69.0,1,0,Not Placed,
+153,M,76.54,Central,77.47,Others,Arts,67.03,Sci&Tech,No,64.09,77.4,78.1,2,1,Placed,498000.0
+154,M,81.38,Others,71.61,Central,Commerce,55.48,Comm&Mgmt,No,65.21,69.1,87.4,2,1,Placed,387000.0
+155,F,67.45,Central,60.02,Central,Arts,66.48,Sci&Tech,No,62.51,96.6,56.5,3,2,Placed,463000.0
+156,M,66.36,Central,86.17,Others,Science,80.26,Comm&Mgmt,Yes,63.52,94.0,64.5,1,1,Placed,607000.0
+157,F,59.28,Central,54.11,Others,Commerce,67.96,Others,No,72.69,65.5,69.5,1,1,Not Placed,
+158,F,59.82,Central,76.93,Others,Science,69.53,Sci&Tech,No,64.91,69.9,63.6,5,0,Placed,641000.0
+159,M,66.12,Central,77.81,Others,Science,58.35,Sci&Tech,No,81.68,71.0,93.8,1,1,Placed,429000.0
+160,F,72.36,Central,59.76,Others,Commerce,63.18,Comm&Mgmt,No,91.35,65.7,62.7,2,1,Not Placed,
+161,M,78.09,Central,82.04,Central,Commerce,64.99,Others,Yes,66.54,74.7,66.3,2,2,Placed,547000.0
+162,F,60.07,Others,64.3,Central,Arts,65.42,Sci&Tech,No,76.37,61.4,75.5,2,0,Not Placed,
+163,F,84.17,Others,70.12,Central,Commerce,77.41,Comm&Mgmt,Yes,79.5,56.2,58.6,1,2,Not Placed,
+164,M,65.65,Others,69.81,Others,Science,71.98,Comm&Mgmt,No,79.16,80.7,68.3,0,3,Placed,414000.0
+165,M,68.28,Others,65.55,Central,Science,59.46,Comm&Mgmt,Yes,74.41,80.8,76.8,1,1,Placed,457000.0
+166,F,60.65,Central,75.76,Others,Commerce,69.65,Sci&Tech,Yes,82.41,60.7,69.0,2,1,Placed,475000.0
+167,M,43.05,Central,75.57,Others,Science,71.54,Comm&Mgmt,No,79.29,84.5,71.9,2,0,Not Placed,
+168,M,77.78,Others,48.12,Others,Science,76.35,Others,Yes,58.65,63.2,66.6,1,2,Not Placed,
+169,M,76.24,Central,81.09,Central,Science,79.65,Sci&Tech,No,83.93,75.5,54.8,2,2,Placed,517000.0
+170,M,65.55,Others,49.05,Others,Science,60.19,Sci&Tech,Yes,84.15,83.5,76.9,3,1,Placed,620000.0
+171,F,69.2,Central,78.15,Central,Science,61.72,Others,No,64.34,71.5,94.1,0,1,Placed,454000.0
+172,M,73.92,Others,79.17,Others,Science,58.37,Sci&Tech,Yes,73.96,78.4,73.2,2,3,Placed,499000.0
+173,M,52.09,Central,55.22,Central,Science,66.04,Comm&Mgmt,Yes,81.7,64.8,75.7,3,1,Placed,371000.0
+174,M,62.94,Others,62.56,Central,Science,71.3,Sci&Tech,Yes,70.99,69.2,81.3,1,0,Placed,260000.0
+175,F,76.84,Central,55.06,Others,Arts,75.21,Sci&Tech,Yes,86.38,69.1,57.8,2,3,Placed,491000.0
+176,M,55.33,Others,64.68,Central,Science,67.23,Comm&Mgmt,No,99.0,61.5,93.4,2,2,Placed,446000.0
+177,F,71.58,Central,63.67,Central,Science,65.4,Sci&Tech,No,64.07,69.5,75.4,4,3,Placed,468000.0
+178,M,54.26,Others,75.42,Others,Commerce,68.94,Comm&Mgmt,No,56.93,50.3,92.6,3,2,Not Placed,
+179,F,73.4,Others,81.15,Others,Science,61.54,Sci&Tech,No,77.15,65.1,64.2,2,2,Placed,453000.0
+180,M,68.13,Central,82.07,Others,Arts,83.47,Comm&Mgmt,Yes,82.16,68.0,94.8,3,1,Placed,561000.0
+181,M,51.54,Others,60.93,Others,Commerce,55.74,Sci&Tech,No,70.73,68.4,82.3,2,2,Placed,469000.0
+182,M,80.73,Others,64.74,Others,Science,69.19,Sci&Tech,Yes,90.94,68.6,79.6,2,3,Placed,411000.0
+183,F,60.79,Central,48.82,Central,Science,82.98,Others,Yes,57.44,71.1,75.8,2,2,Placed,536000.0
+184,F,59.99,Others,58.3,Central,Commerce,67.85,Sci&Tech,Yes,81.82,78.7,70.0,1,1,Not Placed,
+185,M,70.61,Others,77.42,Central,Arts,66.37,Comm&Mgmt,No,66.23,84.2,87.4,3,1,Placed,543000.0
+186,F,80.56,Others,84.45,Others,Science,65.12,Sci&Tech,Yes,94.13,62.9,74.7,2,1,Placed,421000.0
+187,F,57.83,Central,53.67,Others,Commerce,66.45,Comm&Mgmt,Yes,97.41,55.2,49.4,2,1,Not Placed,
+188,M,69.15,Central,60.6,Central,Science,78.1,Sci&Tech,No,64.3,57.4,59.6,4,1,Not Placed,
+189,M,73.0,Others,66.71,Others,Arts,51.21,Others,Yes,66.91,65.2,70.8,0,2,Not Placed,
+190,M,75.78,Others,70.03,Others,Science,79.3,Sci&Tech,Yes,83.82,67.1,76.7,2,2,Placed,494000.0
+191,M,70.35,Central,58.26,Central,Arts,57.12,Sci&Tech,No,68.85,61.2,72.3,0,1,Not Placed,
+192,F,64.65,Others,71.58,Others,Commerce,65.8,Sci&Tech,No,72.96,53.9,87.6,3,2,Placed,332000.0
+193,F,59.81,Central,61.88,Others,Commerce,64.58,Sci&Tech,No,73.8,65.6,49.6,3,0,Not Placed,
+194,F,69.4,Central,66.84,Others,Science,72.21,Comm&Mgmt,No,50.46,74.5,74.7,2,0,Not Placed,
+195,M,57.24,Central,72.9,Central,Science,55.81,Sci&Tech,No,73.33,80.3,51.2,3,1,Not Placed,
+196,M,40.0,Central,67.07,Others,Science,71.27,Comm&Mgmt,No,65.22,64.2,82.1,2,1,Placed,439000.0
+197,F,73.08,Others,62.29,Others,Science,82.98,Sci&Tech,No,67.58,66.2,71.9,3,1,Placed,548000.0
+198,F,77.99,Central,65.82,Others,Science,57.58,Sci&Tech,No,90.82,59.0,78.0,2,1,Placed,399000.0
+199,F,43.69,Others,66.05,Others,Commerce,69.22,Comm&Mgmt,Yes,58.42,71.6,62.6,2,1,Not Placed,
+200,F,57.9,Others,63.0,Others,Science,62.84,Comm&Mgmt,No,83.26,60.1,88.4,4,2,Placed,479000.0
+201,F,75.0,Others,64.21,Others,Science,70.99,Sci&Tech,Yes,70.15,80.0,85.5,1,0,Placed,426000.0
+202,M,90.1,Central,84.27,Central,Arts,67.94,Sci&Tech,No,70.14,47.0,80.0,1,2,Not Placed,
+203,M,68.72,Central,73.06,Others,Commerce,62.99,Sci&Tech,No,82.98,67.0,71.4,2,2,Placed,448000.0
+204,F,60.86,Others,63.81,Others,Commerce,71.46,Comm&Mgmt,No,77.58,76.2,80.0,5,2,Placed,569000.0
+205,F,66.58,Others,74.53,Central,Arts,81.33,Comm&Mgmt,No,80.35,74.6,64.5,2,3,Placed,471000.0
+206,M,82.94,Central,63.39,Others,Science,66.37,Sci&Tech,No,85.12,100.0,83.3,0,0,Placed,491000.0
+207,M,61.72,Others,79.67,Others,Science,73.2,Comm&Mgmt,Yes,69.52,76.9,92.8,2,1,Placed,602000.0
+208,F,60.11,Others,70.99,Others,Commerce,58.1,Comm&Mgmt,No,66.15,57.9,85.8,2,3,Not Placed,
+209,M,63.43,Others,65.84,Others,Commerce,60.63,Comm&Mgmt,Yes,60.48,70.7,64.2,1,1,Not Placed,
+210,M,58.49,Others,71.84,Central,Science,71.34,Comm&Mgmt,Yes,63.6,47.1,77.3,3,2,Not Placed,
+211,M,69.79,Others,50.03,Others,Commerce,78.93,Sci&Tech,No,99.0,70.9,57.5,5,2,Placed,467000.0
+212,F,85.56,Central,54.83,Others,Science,70.47,Sci&Tech,No,88.44,60.3,79.9,2,2,Placed,410000.0
+213,F,71.89,Others,54.11,Central,Science,65.45,Sci&Tech,Yes,57.29,84.8,78.4,2,3,Placed,454000.0
+214,M,65.85,Others,68.54,Others,Science,67.79,Sci&Tech,No,57.63,64.3,50.6,2,4,Not Placed,
+215,F,65.44,Central,85.71,Others,Commerce,58.42,Comm&Mgmt,No,79.28,70.4,59.1,1,2,Not Placed,
+216,M,52.09,Central,91.1,Others,Commerce,72.33,Others,Yes,80.07,63.1,69.6,4,1,Placed,445000.0
+217,M,77.77,Central,73.89,Others,Science,74.42,Sci&Tech,No,80.09,96.3,69.4,2,3,Placed,475000.0
+218,F,67.68,Others,72.41,Central,Commerce,64.41,Sci&Tech,Yes,70.44,67.5,58.5,2,0,Not Placed,
+219,F,66.6,Others,47.55,Central,Science,64.27,Sci&Tech,Yes,71.99,97.7,77.7,3,1,Placed,554000.0
+220,F,95.0,Central,61.14,Central,Science,69.79,Others,No,77.43,83.4,76.0,2,3,Placed,504000.0
+221,F,71.64,Others,58.49,Others,Commerce,64.52,Sci&Tech,No,74.53,78.7,70.7,2,1,Placed,568000.0
+222,M,60.61,Central,60.29,Central,Arts,67.3,Comm&Mgmt,No,46.87,77.2,63.9,0,1,Not Placed,
+223,M,64.02,Others,65.18,Central,Commerce,83.55,Sci&Tech,No,70.74,77.5,85.6,3,0,Placed,329000.0
+224,M,80.56,Others,61.9,Central,Commerce,65.95,Sci&Tech,No,63.28,45.0,92.9,4,3,Placed,433000.0
+225,M,69.69,Others,45.62,Others,Commerce,65.11,Others,Yes,75.6,68.1,67.2,2,1,Placed,539000.0
+226,M,53.4,Central,75.08,Others,Commerce,62.94,Others,No,99.0,83.8,65.7,4,2,Placed,416000.0
+227,F,78.15,Central,55.41,Central,Science,73.38,Sci&Tech,No,77.91,71.3,78.9,1,1,Placed,236000.0
+228,M,61.48,Central,69.58,Central,Science,66.44,Others,Yes,69.74,52.3,68.7,2,2,Not Placed,
+229,F,88.17,Central,89.4,Others,Science,62.93,Comm&Mgmt,Yes,84.56,71.3,71.3,2,2,Placed,484000.0
+230,F,79.84,Others,57.07,Others,Science,77.71,Comm&Mgmt,Yes,79.29,95.9,81.9,2,1,Placed,428000.0
+231,F,63.8,Others,40.0,Central,Commerce,78.45,Sci&Tech,No,78.54,89.5,50.1,2,1,Placed,425000.0
+232,M,81.95,Others,63.91,Others,Science,63.3,Comm&Mgmt,Yes,80.78,71.1,88.8,2,1,Placed,399000.0
+233,M,69.21,Others,78.89,Central,Science,53.8,Sci&Tech,No,98.18,85.3,73.9,1,4,Placed,476000.0
+234,M,77.45,Others,88.15,Central,Science,75.36,Comm&Mgmt,No,59.93,66.9,68.1,2,2,Placed,417000.0
+235,M,73.59,Others,53.72,Others,Commerce,62.67,Sci&Tech,No,79.18,48.1,71.9,1,3,Placed,447000.0
+236,F,59.61,Others,72.36,Central,Science,73.73,Sci&Tech,Yes,62.38,59.1,72.5,3,1,Not Placed,
+237,M,61.74,Others,61.97,Others,Commerce,53.02,Sci&Tech,No,80.17,93.9,52.2,1,2,Placed,421000.0
+238,M,79.31,Central,65.86,Central,Science,74.49,Comm&Mgmt,No,62.48,68.2,90.9,0,2,Placed,343000.0
+239,F,64.98,Central,95.56,Others,Science,58.72,Sci&Tech,No,68.49,68.6,73.5,2,2,Placed,445000.0
+240,M,64.26,Central,50.77,Others,Commerce,73.28,Comm&Mgmt,No,69.96,67.8,78.3,2,4,Placed,424000.0
+241,F,58.47,Others,69.74,Central,Commerce,67.91,Others,Yes,85.21,98.7,84.4,4,1,Placed,604000.0
+242,F,72.95,Others,72.05,Others,Science,60.65,Sci&Tech,Yes,84.52,94.8,60.7,2,0,Placed,372000.0
+243,F,90.16,Central,78.73,Central,Commerce,64.75,Comm&Mgmt,Yes,58.55,100.0,78.7,2,2,Placed,513000.0
+244,M,57.29,Others,68.06,Others,Commerce,72.95,Sci&Tech,No,74.16,69.8,69.8,3,2,Placed,524000.0
+245,M,68.75,Others,70.33,Central,Science,68.59,Comm&Mgmt,No,64.99,76.1,83.2,2,2,Placed,604000.0
+246,F,83.33,Central,62.77,Central,Commerce,72.18,Sci&Tech,No,58.4,50.8,47.5,0,1,Not Placed,
+247,M,67.66,Central,69.91,Central,Commerce,82.62,Comm&Mgmt,No,70.9,92.7,71.8,2,1,Placed,522000.0
+248,F,73.25,Others,63.29,Others,Commerce,56.07,Comm&Mgmt,No,69.8,55.7,65.8,4,1,Not Placed,
+249,F,57.34,Central,73.71,Others,Commerce,79.93,Others,Yes,99.0,75.0,78.2,2,1,Placed,305000.0
+250,F,73.0,Others,63.01,Others,Commerce,68.58,Comm&Mgmt,No,78.7,56.6,78.6,1,2,Placed,484000.0
+251,M,66.53,Central,71.07,Central,Commerce,61.06,Sci&Tech,No,56.97,63.8,64.5,1,2,Not Placed,
+252,M,78.85,Others,66.68,Others,Commerce,57.82,Comm&Mgmt,No,66.72,60.3,64.5,1,1,Not Placed,
+253,F,80.97,Others,79.16,Central,Commerce,66.38,Comm&Mgmt,No,85.76,63.5,71.7,2,1,Placed,359000.0
+254,M,95.0,Others,66.44,Others,Commerce,74.71,Comm&Mgmt,No,98.56,64.5,62.2,2,1,Placed,493000.0
+255,M,74.59,Others,47.85,Central,Commerce,66.84,Sci&Tech,Yes,54.47,64.3,83.1,1,1,Not Placed,
+256,M,71.92,Central,80.63,Central,Commerce,79.13,Others,Yes,50.94,83.7,68.6,4,2,Placed,555000.0
+257,F,70.54,Central,57.22,Central,Science,56.92,Comm&Mgmt,Yes,95.95,56.5,40.0,3,3,Not Placed,
+258,F,64.79,Central,59.94,Others,Commerce,67.71,Comm&Mgmt,No,78.18,75.1,68.5,2,1,Placed,473000.0
+259,M,72.05,Others,60.57,Others,Commerce,58.41,Sci&Tech,No,63.08,89.1,60.5,3,2,Placed,404000.0
+260,M,65.4,Others,81.84,Central,Science,70.53,Comm&Mgmt,No,79.92,64.8,53.4,1,3,Placed,532000.0
+261,F,70.27,Others,43.93,Others,Commerce,74.45,Sci&Tech,No,45.0,61.9,58.2,2,3,Not Placed,
+262,F,82.33,Central,98.0,Others,Science,64.64,Comm&Mgmt,Yes,73.54,68.8,74.3,2,1,Placed,499000.0
+263,M,57.93,Central,78.41,Others,Science,50.0,Sci&Tech,No,77.43,88.5,88.9,3,4,Placed,403000.0
+264,M,80.47,Central,69.41,Central,Commerce,69.29,Comm&Mgmt,No,84.59,74.7,76.8,3,1,Placed,409000.0
+265,F,82.33,Central,66.41,Central,Science,71.08,Others,No,61.33,64.6,65.7,1,1,Placed,537000.0
+266,F,67.26,Others,70.08,Others,Commerce,70.83,Sci&Tech,No,74.53,78.8,78.5,4,0,Placed,494000.0
+267,F,46.22,Central,72.63,Central,Commerce,77.07,Others,Yes,62.39,56.6,67.5,1,1,Not Placed,
+268,F,62.12,Central,73.97,Central,Science,59.77,Sci&Tech,No,76.56,81.5,64.7,4,0,Placed,517000.0
+269,M,82.12,Others,73.0,Others,Science,72.9,Comm&Mgmt,No,62.76,77.7,59.1,5,1,Placed,408000.0
+270,M,68.26,Central,67.97,Others,Science,76.74,Comm&Mgmt,No,68.6,67.7,52.0,1,1,Placed,504000.0
+271,F,58.01,Central,64.87,Central,Commerce,54.46,Comm&Mgmt,No,61.55,60.3,68.3,3,2,Not Placed,
+272,F,63.2,Others,65.37,Central,Arts,70.2,Comm&Mgmt,Yes,81.31,59.6,74.9,0,3,Not Placed,
+273,F,77.33,Central,64.89,Others,Commerce,64.02,Comm&Mgmt,Yes,83.8,79.5,71.8,2,1,Placed,481000.0
+274,F,74.24,Others,79.24,Central,Science,67.19,Sci&Tech,Yes,70.68,89.2,68.0,2,3,Placed,386000.0
+275,M,65.99,Others,73.41,Central,Commerce,70.41,Sci&Tech,Yes,73.96,63.1,61.7,2,3,Placed,466000.0
+276,M,64.65,Others,40.0,Central,Science,64.15,Comm&Mgmt,No,56.12,78.4,80.3,4,2,Placed,671000.0
+277,F,64.39,Central,74.08,Others,Commerce,62.73,Comm&Mgmt,Yes,69.9,42.8,57.2,3,0,Not Placed,
+278,F,58.81,Others,69.1,Others,Science,68.06,Comm&Mgmt,No,72.9,63.8,82.3,2,2,Not Placed,
+279,F,85.46,Central,66.8,Central,Commerce,59.65,Comm&Mgmt,No,99.0,71.6,61.0,3,3,Placed,563000.0
+280,F,65.12,Central,62.8,Central,Science,59.66,Sci&Tech,Yes,60.16,59.3,64.0,4,2,Not Placed,
+281,F,81.28,Central,79.14,Central,Arts,72.9,Comm&Mgmt,No,91.07,58.9,55.4,0,1,Placed,423000.0
+282,M,84.47,Others,77.23,Others,Science,59.18,Sci&Tech,Yes,85.46,62.7,67.0,5,1,Placed,438000.0
+283,M,78.98,Central,58.65,Central,Commerce,72.8,Comm&Mgmt,No,76.87,76.1,84.7,1,2,Placed,471000.0
+284,M,63.97,Central,71.4,Central,Arts,71.27,Sci&Tech,Yes,94.6,69.4,79.2,3,1,Placed,557000.0
+285,M,72.74,Others,56.51,Others,Science,54.86,Sci&Tech,Yes,77.97,40.7,84.7,1,0,Not Placed,
+286,M,68.25,Central,52.1,Central,Arts,62.72,Sci&Tech,Yes,78.17,42.3,79.3,1,1,Not Placed,
+287,M,59.01,Central,60.23,Others,Commerce,76.76,Sci&Tech,Yes,72.86,63.5,59.8,2,2,Placed,449000.0
+288,M,71.91,Central,76.31,Central,Science,60.44,Comm&Mgmt,Yes,88.18,78.4,69.0,2,3,Placed,415000.0
+289,M,56.12,Central,77.29,Central,Science,64.32,Sci&Tech,No,86.66,35.0,63.6,2,0,Not Placed,
+290,M,80.97,Central,72.54,Central,Commerce,71.27,Sci&Tech,No,65.99,65.0,89.0,0,4,Placed,397000.0
+291,M,63.62,Central,74.83,Others,Science,73.68,Sci&Tech,No,57.67,64.6,58.6,2,1,Not Placed,
+292,M,70.61,Others,72.57,Others,Commerce,65.91,Sci&Tech,Yes,71.06,91.4,83.7,4,2,Placed,517000.0
+293,F,71.47,Central,60.07,Others,Science,63.32,Sci&Tech,No,63.9,66.6,83.7,2,2,Placed,456000.0
+294,M,65.78,Central,71.66,Central,Commerce,78.47,Sci&Tech,Yes,72.74,77.4,95.0,1,2,Placed,491000.0
+295,M,74.66,Others,75.64,Others,Science,80.84,Comm&Mgmt,No,88.35,74.0,68.1,2,3,Placed,491000.0
+296,M,63.51,Central,75.15,Central,Commerce,75.14,Comm&Mgmt,No,68.01,42.2,81.5,0,1,Not Placed,
+297,F,77.65,Others,79.84,Central,Arts,68.44,Comm&Mgmt,Yes,72.99,82.8,100.0,3,3,Placed,426000.0
+298,M,54.37,Central,74.65,Others,Arts,61.74,Sci&Tech,No,74.2,75.0,65.6,3,0,Placed,558000.0
+299,F,69.83,Central,70.8,Central,Commerce,61.57,Sci&Tech,No,83.68,79.1,54.6,2,2,Placed,469000.0
+300,M,88.86,Central,78.56,Central,Science,71.72,Comm&Mgmt,No,46.54,100.0,50.4,2,2,Placed,473000.0

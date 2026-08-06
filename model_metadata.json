@@ -1,0 +1,170 @@
+{
+  "best_model": "Logistic Regression",
+  "feature_cols": [
+    "ssc_p",
+    "hsc_p",
+    "degree_p",
+    "etest_p",
+    "coding_score",
+    "communication_score",
+    "projects_count",
+    "certifications_count",
+    "gender_M",
+    "ssc_b_Others",
+    "hsc_b_Others",
+    "hsc_s_Commerce",
+    "hsc_s_Science",
+    "degree_t_Others",
+    "degree_t_Sci&Tech",
+    "workex_Yes"
+  ],
+  "models_performance": {
+    "Logistic Regression": {
+      "Accuracy": 0.8333333333333334,
+      "Precision": 0.8333333333333334,
+      "Recall": 0.9523809523809523,
+      "F1": 0.888888888888889,
+      "ROC-AUC": 0.9166666666666667,
+      "ConfusionMatrix": [
+        [
+          10,
+          8
+        ],
+        [
+          2,
+          40
+        ]
+      ]
+    },
+    "Random Forest": {
+      "Accuracy": 0.8333333333333334,
+      "Precision": 0.8333333333333334,
+      "Recall": 0.9523809523809523,
+      "F1": 0.888888888888889,
+      "ROC-AUC": 0.8835978835978836,
+      "ConfusionMatrix": [
+        [
+          10,
+          8
+        ],
+        [
+          2,
+          40
+        ]
+      ]
+    },
+    "SVM": {
+      "Accuracy": 0.7833333333333333,
+      "Precision": 0.7843137254901961,
+      "Recall": 0.9523809523809523,
+      "F1": 0.8602150537634408,
+      "ROC-AUC": 0.9113756613756613,
+      "ConfusionMatrix": [
+        [
+          7,
+          11
+        ],
+        [
+          2,
+          40
+        ]
+      ]
+    },
+    "XGBoost": {
+      "Accuracy": 0.8166666666666667,
+      "Precision": 0.8444444444444444,
+      "Recall": 0.9047619047619048,
+      "F1": 0.8735632183908046,
+      "ROC-AUC": 0.876984126984127,
+      "ConfusionMatrix": [
+        [
+          11,
+          7
+        ],
+        [
+          4,
+          38
+        ]
+      ]
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "coding_score",
+      "weight": 1.0565
+    },
+    {
+      "feature": "communication_score",
+      "weight": 0.8181
+    },
+    {
+      "feature": "etest_p",
+      "weight": 0.6285
+    },
+    {
+      "feature": "ssc_p",
+      "weight": 0.588
+    },
+    {
+      "feature": "projects_count",
+      "weight": 0.525
+    },
+    {
+      "feature": "degree_p",
+      "weight": 0.4432
+    },
+    {
+      "feature": "hsc_p",
+      "weight": 0.4033
+    },
+    {
+      "feature": "certifications_count",
+      "weight": 0.4012
+    },
+    {
+      "feature": "degree_t_Others",
+      "weight": 0.1839
+    },
+    {
+      "feature": "degree_t_Sci&Tech",
+      "weight": 0.1774
+    },
+    {
+      "feature": "ssc_b_Others",
+      "weight": -0.1299
+    },
+    {
+      "feature": "gender_M",
+      "weight": 0.0899
+    },
+    {
+      "feature": "workex_Yes",
+      "weight": -0.0807
+    },
+    {
+      "feature": "hsc_s_Science",
+      "weight": 0.0577
+    },
+    {
+      "feature": "hsc_b_Others",
+      "weight": 0.0485
+    },
+    {
+      "feature": "hsc_s_Commerce",
+      "weight": 0.007
+    }
+  ],
+  "dataset_stats": {
+    "total_students": 300,
+    "placed_count": 210,
+    "not_placed_count": 90,
+    "avg_ssc_p": 69.61,
+    "avg_hsc_p": 67.4,
+    "avg_degree_p": 67.43,
+    "avg_etest_p": 73.86,
+    "avg_coding_score": 72.05,
+    "avg_communication_score": 72.09,
+    "avg_projects": 2.1,
+    "avg_salary_placed": 470300.0
+  }
+}

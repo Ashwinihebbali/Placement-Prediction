@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlacementIQ — AI Campus Placement & Skills Assessment Platform</title>
+  
+  <!-- SEO & OpenGraph Meta Tags -->
+  <meta name="description" content="Industry-grade AI campus recruitment & skill assessment system. Evaluate placement probability, CTC bands, & profile readiness.">
+  <meta name="keywords" content="Placement Prediction, Skill Assessment, Machine Learning, Campus Recruitment, Career AI">
+  
+  <!-- FontAwesome & Chart.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Styles with Cache Busting -->
+  <link rel="stylesheet" href="/static/style.css?v=6.0">
+</head>
+<body>
+
+  <!-- Ambient Light Effect & Dynamic Particle Background -->
+  <div class="ambient-light ambient-1"></div>
+  <div class="ambient-light ambient-2"></div>
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <i class="fas fa-graduation-cap"></i>
+      <span>PlacementIQ</span>
+    </div>
+    <div class="nav-tagline">
+      <span class="badge" style="margin: 0;"><i class="fas fa-bolt"></i> AI Placement Evaluator</span>
+    </div>
+  </nav>
+
+  <!-- Main App Container -->
+  <div class="app-container">
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+      <h1 class="hero-title">AI Placement & Skill Assessment</h1>
+      <p class="hero-subtitle">
+        Enter student academic marks, technical skills, and profile links to generate a real-time placement prediction, estimated CTC package, and personalized career recommendations.
+      </p>
+    </header>
+
+    <!-- Main Grid: Single-Page Predictor Form + Executive Result Report Card -->
+    <div class="main-grid" id="predict-section">
+
+      <!-- Predictor Form Card -->
+      <div class="glass-card form-card">
+        
+        <div class="section-header">
+          <h2 class="section-title">
+            <i class="fas fa-user-graduate"></i> Student Profile Assessment
+          </h2>
+          <div class="preset-buttons">
+            <span style="font-size: 0.8rem; color: var(--text-muted); align-self: center;">Fill Sample:</span>
+            <button type="button" class="btn-preset" data-preset="high">High Achiever</button>
+            <button type="button" class="btn-preset" data-preset="average">Average</button>
+            <button type="button" class="btn-preset" data-preset="experienced">Experienced</button>
+            <button type="button" class="btn-preset" data-preset="low">Needs Work</button>
+          </div>
+        </div>
+
+        <form id="prediction-form">
+          
+          <!-- SECTION 1: IDENTITY & ONLINE PROFILES -->
+          <div class="form-section-block">
+            <div class="block-title">
+              <i class="fas fa-id-card" style="color: var(--accent-cyan);"></i>
+              <span>1. Candidate Profile & Online Footprint</span>
+            </div>
+
+            <div class="form-grid">
+              
+              <!-- Full Name -->
+              <div class="input-group">
+                <label class="input-label" for="full_name">
+                  <span><i class="fas fa-user" style="color: var(--accent-cyan);"></i> Full Name</span>
+                </label>
+                <input type="text" id="full_name" name="full_name" placeholder="e.g. Alex Smith" value="Alex Smith">
+              </div>
+
+              <!-- Target Job Role -->
+              <div class="input-group">
+                <label class="input-label" for="target_role">
+                  <span><i class="fas fa-briefcase" style="color: var(--accent-blue);"></i> Target Job Role</span>
+                </label>
+                <input type="text" id="target_role" name="target_role" placeholder="e.g. Software Engineer, Data Scientist" value="Software Engineer">
+              </div>
+
+              <!-- GitHub URL -->
+              <div class="input-group">
+                <label class="input-label" for="github_url">
+                  <span><i class="fab fa-github" style="color: #fff;"></i> GitHub Profile Link</span>
+                </label>
+                <input type="url" id="github_url" name="github_url" placeholder="https://github.com/username" value="https://github.com/alexsmith">
+              </div>
+
+              <!-- LinkedIn URL -->
+              <div class="input-group">
+                <label class="input-label" for="linkedin_url">
+                  <span><i class="fab fa-linkedin" style="color: #0077b5;"></i> LinkedIn Profile Link</span>
+                </label>
+                <input type="url" id="linkedin_url" name="linkedin_url" placeholder="https://linkedin.com/in/username" value="https://linkedin.com/in/alexsmith">
+              </div>
+
+              <!-- Portfolio Link -->
+              <div class="input-group full-width">
+                <label class="input-label" for="portfolio_url">
+                  <span><i class="fas fa-globe" style="color: var(--warning);"></i> Personal Portfolio / Resume Link</span>
+                </label>
+                <input type="url" id="portfolio_url" name="portfolio_url" placeholder="https://alexsmith-portfolio.dev" value="https://alexsmith-portfolio.dev">
+              </div>
+
+            </div>
+          </div>
+
+          <!-- SECTION 2: ACADEMIC PERFORMANCE -->
+          <div class="form-section-block">
+            <div class="block-title">
+              <i class="fas fa-graduation-cap" style="color: var(--accent-purple);"></i>
+              <span>2. Academic Performance & Stream</span>
+            </div>
+
+            <div class="form-grid">
+
+              <!-- 10th Percentage (SSC) -->
+              <div class="input-group">
+                <div class="input-label">
+                  <span><i class="fas fa-award" style="color: var(--accent-cyan);"></i> 10th SSC Percentage</span>
+                  <span class="input-val-badge" id="ssc_p-val">75.0%</span>
+                </div>
+                <div class="slider-container">
+                  <input type="range" id="ssc_p" name="ssc_p" min="40" max="100" step="0.5" value="75">
+                </div>
+              </div>
+
+              <!-- 12th Percentage (HSC) -->
+              <div class="input-group">
+                <div class="input-label">
+                  <span><i class="fas fa-book-open" style="color: var(--accent-blue);"></i> 12th HSC Percentage</span>
+                  <span class="input-val-badge" id="hsc_p-val">72.0%</span>
+                </div>
+                <div class="slider-container">
+                  <input type="range" id="hsc_p" name="hsc_p" min="35" max="100" step="0.5" value="72">
+                </div>
+              </div>
+
+              <!-- Graduation Degree Percentage -->
+              <div class="input-group">
+                <div class="input-label">
+                  <span><i class="fas fa-university" style="color: var(--accent-purple);"></i> Graduation Degree %</span>
+                  <span class="input-val-badge" id="degree_p-val">74.0%</span>
+                </div>
+                <div class="slider-container">
+                  <input type="range" id="degree_p" name="degree_p" min="45" max="100" step="0.5" value="74">
+                </div>
+              </div>
+
+              <!-- Aptitude / Employability Test % -->
+              <div class="input-group">
+                <div class="input-label">
+                  <span><i class="fas fa-brain" style="color: var(--warning);"></i> Aptitude / Employability Score</span>
+                  <span class="input-val-badge" id="etest_p-val">78.0%</span>
+                </div>
+                <div class="slider-container">
+                  <input type="range" id="etest_p" name="etest_p" min="40" max="100" step="0.5" value="78">
+                </div>
+              </div>
+
+              <!-- 12th Stream -->
+              <div class="input-group">
+                <label class="input-label" for="hsc_s">12th Stream</label>
+                <select id="hsc_s" name="hsc_s">
+                  <option value="Science" selected>Science</option>
+                  <option value="Commerce">Commerce</option>
+                  <option value="Arts">Arts</option>
+                </select>
+              </div>
+
+              <!-- Degree Field -->
+              <div class="input-group">
+                <label class="input-label" for="degree_t">Undergraduate Degree Field</label>
+                <select id="degree_t" name="degree_t">
+                  <option value="Sci&Tech" selected>Science & Technology (B.Tech / B.Sc / BCA)</option>
+                  <option value="Comm&Mgmt">Commerce & Management (BBA / B.Com)</option>
+                  <option value="Others">Others (Arts / Humanities)</option>
+                </select>
+              </div>
+
+              <!-- Gender -->
+              <div class="input-group">
+                <label class="input-label">Gender</label>
+                <div class="toggle-group">
+                  <div class="toggle-option">
+                    <input type="radio" id="gender_m" name="gender" value="M" checked>
+                    <label for="gender_m"><i class="fas fa-mars"></i> Male</label>
+                  </div>
+                  <div class="toggle-option">
+                    <input type="radio" id="gender_f" name="gender" value="F">
+                    <label for="gender_f"><i class="fas fa-venus"></i> Female</label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 10th Board -->
+              <div class="input-group">
+                <label class="input-label">10th Board</label>
+                <div class="toggle-group">
+                  <div class="toggle-option">
+                    <input type="radio" id="ssc_b_central" name="ssc_b" value="Central" checked>
+                    <label for="ssc_b_central">Central Board</label>
+                  </div>
+                  <div class="toggle-option">
+                    <input type="radio" id="ssc_b_others" name="ssc_b" value="Others">
+                    <label for="ssc_b_others">State / Others</label>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- SECTION 3: TECHNICAL & SKILL COMPETENCIES -->
+          <div class="form-section-block">
+            <div class="block-title">
+              <i class="fas fa-laptop-code" style="color: var(--accent-cyan);"></i>
+              <span>3. Technical Proficiency & Project Assets</span>
+            </div>
+
+            <div class="form-grid">
+
+              <!-- Coding & Technical Score -->
+              <div class="input-group">
+                <div class="input-label">
+                  <span><i class="fas fa-code" style="color: var(--accent-cyan);"></i> Coding & Tech Proficiency</span>
+                  <span class="input-val-badge" id="coding_score-val">82.0%</span>
+                </div>
+                <div class="slider-container">
+                  <input type="range" id="coding_score" name="coding_score" min="30" max="100" step="1" value="82">
+                </div>
+              </div>
+
+              <!-- Communication & Soft Skills Score -->
+              <div class="input-group">
+                <div class="input-label">
+                  <span><i class="fas fa-comments" style="color: var(--accent-blue);"></i> Communication & Soft Skills</span>
+                  <span class="input-val-badge" id="communication_score-val">80.0%</span>
+                </div>
+                <div class="slider-container">
+                  <input type="range" id="communication_score" name="communication_score" min="30" max="100" step="1" value="80">
+                </div>
+              </div>
+
+              <!-- Portfolio Projects Count -->
+              <div class="input-group">
+                <div class="input-label">
+                  <span><i class="fas fa-project-diagram" style="color: var(--warning);"></i> Completed Capstone Projects</span>
+                  <span class="input-val-badge" id="projects_count-val">3 Projects</span>
+                </div>
+                <div class="slider-container">
+                  <input type="range" id="projects_count" name="projects_count" min="0" max="10" step="1" value="3">
+                </div>
+              </div>
+
+              <!-- Industry Certifications Count -->
+              <div class="input-group">
+                <div class="input-label">
+                  <span><i class="fas fa-certificate" style="color: var(--success);"></i> Industry Certifications</span>
+                  <span class="input-val-badge" id="certifications_count-val">2 Certs</span>
+                </div>
+                <div class="slider-container">
+                  <input type="range" id="certifications_count" name="certifications_count" min="0" max="5" step="1" value="2">
+                </div>
+              </div>
+
+              <!-- Internship / Work Experience -->
+              <div class="input-group full-width">
+                <label class="input-label">Prior Internship / Industrial Work Experience</label>
+                <div class="toggle-group">
+                  <div class="toggle-option">
+                    <input type="radio" id="workex_yes" name="workex" value="Yes" checked>
+                    <label for="workex_yes"><i class="fas fa-briefcase"></i> Yes, Has Industrial Experience</label>
+                  </div>
+                  <div class="toggle-option">
+                    <input type="radio" id="workex_no" name="workex" value="No">
+                    <label for="workex_no"><i class="fas fa-user-slash"></i> No Industrial Experience</label>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem;">
+            <button type="submit" class="btn-submit" id="submit-btn">
+              <i class="fas fa-bolt"></i> Evaluate Placement & Skill Readiness
+            </button>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- Result Card / Industry Placement Report -->
+      <div class="glass-card result-card" id="result-container">
+        <div class="result-placeholder">
+          <i class="fas fa-award"></i>
+          <h3>Ready for AI Evaluation</h3>
+          <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+            Fill in your candidate details, academic marks, and technical skills, then click <strong>Evaluate Placement & Skill Readiness</strong>.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>PlacementIQ — Campus Placement & Skill Assessment System &copy; 2026. Developed by Ashwini Vishal.</p>
+    </footer>
+
+  </div>
+
+  <!-- Custom Script with Cache Busting -->
+  <script src="/static/script.js?v=6.0"></script>
+
+</body>
+</html>
