@@ -1,4 +1,4 @@
-  # PlacementIQ — AI Campus Placement & Skill Assessment Platform           
+  # PlacementIQ — AI Campus Placement & Skill Assessment Platform            
 
 > **Developed by Ashwini Vishal** | AI-powered placement prediction system for students across Engineering, Science, Commerce, and Arts streams.
 
