@@ -3,7 +3,7 @@
 > **Developed by Ashwini Vishal** | AI-powered placement prediction system for students across Engineering, Science, Commerce, and Arts streams.
 
 ---
-
+ 
 ## 🚀 Live Demo
 
 > Deployed on Render — see [render.com](https://render.com) for deployment steps.
